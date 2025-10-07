@@ -1,0 +1,142 @@
+/* ===== VARIABLES ===== */
+:root {
+  --bg1: #a18cd1;
+  --bg2: #fbc2eb;
+  --bg3: #84fab0;
+  --bg4: #8fd3f4;
+
+  --text-color: #222;
+  --card-bg: rgba(255, 255, 255, 0.25);
+  --button-bg: rgba(255, 255, 255, 0.3);
+  --button-text: #333;
+  --hover-glow: rgba(255, 255, 255, 0.6);
+}
+
+body.dark {
+  --text-color: #f5f5f5;
+  --card-bg: rgba(0, 0, 0, 0.4);
+  --button-bg: rgba(255, 255, 255, 0.15);
+  --button-text: #fff;
+  --hover-glow: rgba(173, 216, 230, 0.8);
+
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d, #0f0c29);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  background: linear-gradient(-45deg, var(--bg1), var(--bg2), var(--bg3), var(--bg4));
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+  transition: background 1s ease, color 0.5s ease;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+  padding: 35px 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+  text-align: center;
+  width: 340px;
+  animation: fadeIn 1s ease forwards;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ===== HEADER ===== */
+.header {
+  margin-bottom: 20px;
+}
+
+/* ===== TIMER ===== */
+.timer {
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 25px 0;
+  animation: float 3s ease-in-out infinite;
+  text-shadow: 0 0 8px rgba(255,255,255,0.3),
+               0 0 15px rgba(255,255,255,0.2),
+               0 0 20px rgba(255,255,255,0.1);
+}
+
+
+/* ===== BUTTONS ===== */
+.buttons button {
+  margin: 6px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px var(--hover-glow);
+}
+
+/* ===== LAP LIST ===== */
+.laps-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  max-height: 160px;
+  overflow-y: auto;
+}
+.laps-list li {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin: 5px 0;
+  animation: slideIn 0.5s ease forwards;
+}
+
+/* ===== MODE TOGGLE BUTTON ===== */
+.mode-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 50%;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+.mode-toggle:hover {
+  background: rgba(255,255,255,0.4);
+  transform: rotate(20deg);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

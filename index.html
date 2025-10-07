@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flowy Stopwatch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Dark/Light mode toggle -->
+  <button id="themeToggle" class="mode-toggle">🌙</button>
+
+  <div class="container">
+    <div class="header">
+      <h1>⏱ Stopwatch</h1>
+    </div>
+
+    <div class="timer" id="timer">00:00:00.000</div>
+
+    <div class="buttons">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+      <button id="lapBtn">Lap</button>
+    </div>
+
+    <h3>Lap Times</h3>
+    <ul id="laps" class="laps-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
