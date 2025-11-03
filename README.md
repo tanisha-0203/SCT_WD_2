@@ -51,15 +51,16 @@ SCT_WD_2/
 ```bash
 git clone https://github.com/tanisha-0203/SCT_WD_2.git
 
-2️⃣ Navigate to the folder
+### 2️⃣ Navigate to the folder
+```
 cd SCT_WD_2
 
-3️⃣ Run locally
-
+### 3️⃣ Run locally
+``bash
 Just open index.html in your browser — no setup needed! 🎉
 
-⚙️ Future Enhancements
-
+### ⚙️ Future Enhancements
+``bash
 💾 Save lap times using LocalStorage
 
 📱 Convert to Progressive Web App (PWA)
@@ -69,7 +70,8 @@ Just open index.html in your browser — no setup needed! 🎉
 ⏰ Introduce countdown / timer mode
 
 
-🧑‍💻 Author
+### 🧑‍💻 Author
+``bash
 Tanisha Manchanda
 Frontend Developer | Web Design Intern
 
