@@ -51,7 +51,7 @@ SCT_WD_2/
 ```bash
 git clone https://github.com/tanisha-0203/SCT_WD_2.git
 
-### 2️⃣ Navigate to the folder
+```### 2 Navigate to the folder
 ```
 cd SCT_WD_2
 
@@ -71,7 +71,6 @@ Just open index.html in your browser — no setup needed! 🎉
 
 
 ### 🧑‍💻 Author
-``bash
 Tanisha Manchanda
 Frontend Developer | Web Design Intern
 
