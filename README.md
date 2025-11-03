@@ -68,9 +68,8 @@ cd SCT_WD_2
 
 ⏰ Introduce countdown / timer mode
 
-``
 ### 🧑‍💻 Author
-Tanisha Manchanda
+Tanisha Manchanda |
 Frontend Developer | Web Design Intern
 
 
