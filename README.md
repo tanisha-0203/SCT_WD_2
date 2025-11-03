@@ -35,13 +35,14 @@ It features smooth gradients, lap tracking, sound/vibration feedback, and a dark
 
 ## 🗂️ Folder Structure
 
-SCT_WD_2/
-├── index.html # Main HTML file
-├── styles.css # Styling, gradients & animations
-├── script.js # Stopwatch logic & event handling
-├── .hintrc # HTML hint configuration (optional)
-└── .gitignore # Git ignore rules
-
+```
+📁 SCT_WD_2/
+├── 🧩 index.html      # Main HTML file
+├── 🎨 styles.css      # Styling, gradients & animations
+├── ⚙️ script.js       # Stopwatch logic & event handling
+├── 🧠 .hintrc         # HTML hint configuration (optional)
+└── 🚫 .gitignore      # Git ignore rules
+```
 
 ---
 
@@ -59,7 +60,7 @@ cd SCT_WD_2
 ```
 
 ### ⚙️ Future Enhancements
-``bash
+
 💾 Save lap times using LocalStorage
 
 📱 Convert to Progressive Web App (PWA)
