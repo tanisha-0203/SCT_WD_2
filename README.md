@@ -47,17 +47,16 @@ SCT_WD_2/
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
 ```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/tanisha-0203/SCT_WD_2.git
 
-```### 2 Navigate to the folder
-```
+# 2️⃣ Navigate to the folder
 cd SCT_WD_2
 
-### 3️⃣ Run locally
-``bash
-Just open index.html in your browser — no setup needed! 🎉
+# 3️⃣ Run locally
+# Just open index.html in your browser — no setup needed! 🎉
+```
 
 ### ⚙️ Future Enhancements
 ``bash
@@ -69,7 +68,7 @@ Just open index.html in your browser — no setup needed! 🎉
 
 ⏰ Introduce countdown / timer mode
 
-
+``
 ### 🧑‍💻 Author
 Tanisha Manchanda
 Frontend Developer | Web Design Intern
